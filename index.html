@@ -22,7 +22,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <!-- Main Style -->
+  <script type="text/javascript" src="./rankerold.json"></script>
+   <!-- Main Style -->
     <link href="style.css" rel="stylesheet">
 
     <!-- Fonts -->
@@ -116,16 +117,16 @@
 							<div class="row">
 								<div class="col-md-4 col-sm-12 col-xs-12">
 									<div class="mu-sponsors-single">
-										<h3 class="col-md-offset-2">Photography</h3>															<div class="col-md-5 col-sm-6 col-xs-6">													       <img src="assets/images/photo1.png" alt="Brand Logo">
-												 <br><p><strong>Username</strong></p>	
-												 <i class="fa fa-thumbs-up" style="color:blue"></i>										
+										<h3 class="col-md-offset-2">Photography</h3>															<div class="col-md-5 col-sm-6 col-xs-6">													       <a id="photo_first_post"><img  id= "photo_img_first" src="assets/images/photo1.png" width="350" height="150" alt="Brand Logo"></a>
+												 <br><p id="photo_first"><strong>Username</strong></p>	
+												 <i class="fa fa-thumbs-up" style="color:blue;display:inline"></i><p id="photo_first_likes" style="display:inline"></p>									
 													
 											</div>
 																													<div class="col-md-5 col-sm-6 col-xs-6">
-																														<img src="assets/images/photo1.png" alt="Brand Logo">           
-												 <br><p><strong>Username</strong></p>
-												 <i class="fa fa-thumbs-up" style="color:blue"></i>
-										         </div>
+																														<img  id= "photo_img_second" src="assets/images/photo1.png" width="350" height="150" alt="Brand Logo">           
+												 <br><p id="photo_second"><strong>Username</strong></p>
+												 <i class="fa fa-thumbs-up" style="color:blue;display:inline"></i><p id="photo_second_likes" style="display:inline"></p>
+											 </div>
 
 									</div>
 								</div>
@@ -133,14 +134,15 @@
 								<div class="col-md-4 col-sm-12 col-xs-12">
 									<div class="mu-sponsors-single">
 										<h3 class="col-md-offset-3">Souvenir</h3>
-											<div class="col-md-5 col-sm-6 col-xs-6">														<img src="assets/images/photo1.png" alt="Brand Logo">
-													<br><p><strong>Username</strong></p>
-													<i class="fa fa-thumbs-up" style="color:blue"></i>
+											<div class="col-md-5 col-sm-6 col-xs-6">														<img  id= "souvenir_img_first"  width="350" height="150" src="assets/images/photo1.png" alt="Brand Logo">
+													<br><p id="souvenir_first"><strong>Username</strong></p>
+													<i class="fa fa-thumbs-up" style="color:blue;display:inline"></i><p id="souvenir_first_likes" style="display:inline"></p>
 																													</div>
 																													<div class="col-md-5 col-sm-6  col-xs-6">
-																															<img src="assets/images/photo1.png" alt="Brand Logo">
-														<br><p><strong>Username</strong></p>
-														<i class="fa fa-thumbs-up" style="color:blue"></i>
+																															<img  id= "souvenir_img_second" src="assets/images/photo1.png"  width="350" height="150" alt="Brand Logo">
+														<br><p id="souvenir_second"><strong>Username</strong></p>
+														<p id="souvenir_second_likes"><i class="fa fa-thumbs-up" style="color:blue"></i></p>
+														<i class="fa fa-thumbs-up" style="color:blue;display:inline"></i><p id="souvenir_second_likes" style="display:inline"></p>
 											</div>
 									</div>
 								</div>
@@ -148,14 +150,14 @@
 								<div class="col-md-4 col-sm-12  col-xs-12">
 									<div class="mu-sponsors-single">
 										<h3 class="col-md-offset-1">Content Writing</h3>
-											<div class="col-md-5 col-sm-6 col-xs-6">														<img src="images/photo1.png" alt="Brand Logo">
-													<br><p><strong>Username</strong></p>
-													<i class="fa fa-thumbs-up" style="color:blue"></i>
+											<div class="col-md-5 col-sm-6 col-xs-6">														<img  id= "content_img_first"  width="350" height="150" src="images/photo1.png" alt="Brand Logo">
+													<br><p  id="content_first"><strong>Username</strong></p>
+													<i class="fa fa-thumbs-up" style="color:blue;display:inline"></i><p id="content_first_likes" style="display:inline"></p>
 											</div>
 
-											<div class="col-md-5 col-sm-6 col-xs-6">																<img src="assets/images/photo1.png" alt="Brand Logo">
-													<br><p><strong>Username</strong></p>
-													<i class="fa fa-thumbs-up" style="color:blue"></i>
+											<div class="col-md-5 col-sm-6 col-xs-6">																<img  id= "content_img_second" src="assets/images/photo1.png"  width="350" height="150" alt="Brand Logo">
+													<br><p id="content_second"><strong>Username</strong></p>
+													<i class="fa fa-thumbs-up" style="color:blue;display:inline"></i><p id="souvenir_second_likes" style="display:inline"></p>
 											</div>
 									</div>
 								</div>
@@ -594,9 +596,11 @@ to make education for kids more meaningful and enjoyable.
 
     <!-- Custom js -->
 	<script type="text/javascript" src="assets/js/custom.js"></script>
-
+<!--        <script src="ranker.js"></script>-->
 
 
 
   </body>
+ <script src="ranker.js"></script>
+
 </html>
