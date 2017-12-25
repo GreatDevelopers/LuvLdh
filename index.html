@@ -42,6 +42,28 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<style>
+/* .img-container {
+   width: 125px;
+   height: 200px;
+   position: relative;
+ }
+ .img-container .stretch {
+   width: 100%;
+   height: auto;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+ }*/
+
+.stretch {
+  object-fit: cover;
+  width: 125px;
+  height: 125px;
+}
+
+</style>
   </head>
   <body>
   	<div id="go-top" style="display: block;">
@@ -96,7 +118,7 @@
 
 							<h1><font size="50" color="red">Love Ludhiana </font></h1>
 							<h2>Do you Love your City?</h2>
-							<p class="mu-event-date-line">Login to Submit Entry: Last day for entry submission Dec 25, 2017</p>
+							<p class="mu-event-date-line">Login to Submit Entry: Last day for entry submission Jan 31, 2018</p>
 
 
 
@@ -109,7 +131,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="mu-title-area">
-						<br/>	<h2 class="mu-title">Top ranker of the moment</h2>
+						<br/>	<h2>Top ranker of the moment</h2>
 					</div>
 					
 					<!-- Start spnonsors brand logo -->
@@ -118,13 +140,13 @@
 							<div class="row">
 								<div class="col-md-4 col-sm-12 col-xs-12">
 									<div class="mu-sponsors-single">
-										<h3 class="col-md-offset-2">Photography</h3>															<div class="col-md-5 col-sm-6 col-xs-6">													       <a class="photo_first_likes_link" href="#"><img  id= "photo_img_first" src="assets/images/photo1.png" width="350" height="150" alt="Brand Logo"></a>
+										<h3 class="col-md-offset-2">Photography</h3>															<div class="col-md-5 col-sm-6 col-xs-6">													       <a class="photo_first_likes_link" href="#"><div class="img-container"><img  class="stretch" id= "photo_img_first" src="assets/images/photo1.png" alt="Brand Logo"></div></a>
 												 <br><a id="photo_first_username_link" href="#"><p id="photo_first_username"><strong>Username</strong></p></a>
 												 <a class="photo_first_likes_link" href="#"><i class="fa fa-thumbs-up" style="color:blue;display:inline"></i></a><p id="photo_first_likes" style="display:inline"></p>									
 													
 											</div>
 																													<div class="col-md-5 col-sm-6 col-xs-6">
-																													<a class="photo_second_likes_link" href="#"><img  id= "photo_img_second" src="assets/images/photo1.png" width="350" height="150" alt="Brand Logo"></a>
+																													<a class="photo_second_likes_link" href="#"><div class="img-container"><img class="stretch"  id= "photo_img_second" src="assets/images/photo1.png" alt="Brand Logo"></div></a>
 												 <br><a id="photo_second_username_link" href="#"><p id="photo_second_username"><strong>Username</strong></p></a>
 												 <a class="photo_second_likes_link" href="#"><i class="fa fa-thumbs-up" style="color:blue;display:inline"></i></a><p id="photo_second_likes" style="display:inline"></p>
 											 </div>
@@ -135,12 +157,12 @@
 								<div class="col-md-4 col-sm-12 col-xs-12">
 									<div class="mu-sponsors-single">
 										<h3 class="col-md-offset-3">Souvenir</h3>
-											<div class="col-md-5 col-sm-6 col-xs-6">													<a class="souvenir_first_likes_link" href="#"><img  id= "souvenir_img_first"  width="350" height="150" src="assets/images/photo1.png" alt="Brand Logo"></a>
+											<div class="col-md-5 col-sm-6 col-xs-6">													<a class="souvenir_first_likes_link" href="#"><div class="img-container"><img class="stretch" id= "souvenir_img_first" src="assets/images/photo1.png" alt="Brand Logo"></div></a>
 													<br><a id="souvenir_first_username_link" href="#"><p id="souvenir_first_username"><strong>Username</strong></p></a>
 													<a class="souvenir_first_likes_link" href="#"><i class="fa fa-thumbs-up" style="color:blue;display:inline"></i></a><p id="souvenir_first_likes" style="display:inline"></p>
 																													</div>
 																													<div class="col-md-5 col-sm-6  col-xs-6">
-																														<a class="souvenir_second_likes_link" href="#"><img  id= "souvenir_img_second" src="assets/images/souvenir_alt1.jpg"  width="350" height="150" alt="Brand Logo"></a>
+																														<a class="souvenir_second_likes_link" href="#"><div class="img-container"><img class="stretch" id= "souvenir_img_second" src="assets/images/souvenir_alt1.jpg" alt="Brand Logo"></div></a>
 														<br><a id="souvenir_second_username_link" href="#"><p id="souvenir_second_username">Empty</p></a>
 														<a class="souvenir_first_likes_link" href="#"><i class="fa fa-thumbs-up" style="color:blue;display:inline"></i></a><p id="souvenir_second_likes" style="display:inline"></p>
 											</div>
@@ -150,13 +172,13 @@
 								<div class="col-md-4 col-sm-12  col-xs-12">
 									<div class="mu-sponsors-single">
 										<h3 class="col-md-offset-1">Content Writing</h3>
-											<div class="col-md-5 col-sm-6 col-xs-6">														<a class="content_first_likes_link" href="#"><img  id= "content_img_first"  width="350" height="150" src="images/photo1.png" alt="Brand Logo"></a>
+											<div class="col-md-5 col-sm-6 col-xs-6">														<a class="content_first_likes_link" href="#"><div class="img-container"><img class="stretch" id= "content_img_first" src="images/photo1.png" alt="Brand Logo"></div></a>
 													<br><a id="content_first_username_link" href="#"><p  id="content_first_username"><strong>Username</strong></p></a>
 													<a class="content_first_likes_link" href="#"><i class="fa fa-thumbs-up" style="color:blue;display:inline"></i></a><p id="content_first_likes" style="display:inline"></p>
 											</div>
 
-											<div class="col-md-5 col-sm-6 col-xs-6">															<a class="content_second_likes_link" href="#"><img  id= "content_img_second" src="assets/images/photo1.png"  width="350" height="150" alt="Brand Logo"></a>
-													<br><a id="content_second_username_link" href="#"><p id="content_second_username"><strong>Username</strong></p></a>
+											<div class="col-md-5 col-sm-6 col-xs-6">															<a class="content_second_likes_link" href="#"><div class="img-container"><img class="stretch" id= "content_img_second" src="assets/images/souvenir_alt1.jpg" alt="Brand Logo"></div></a>
+													<br><a id="content_second_username_link" href="#"><p id="content_second_username">Empty</p></a>
 													<a class="content_first_likes_link" href="#"><i class="fa fa-thumbs-up" style="color:blue;display:inline"></i></a><p id="content_second_likes" style="display:inline"></p>
 											</div>
 									</div>
@@ -601,7 +623,7 @@ to make education for kids more meaningful and enjoyable.
 //var $idown;
 //$idown.attr('src', 'https://ldh.gdy.club/media/WinnersData.json');
 //$.fileDownload('https://ldh.gdy.club/media/WinnersData.json');
-text = jQuery.getJSON("rankerold.json", function(data) {  
+text = jQuery.getJSON("WinnersData.json", function(data) {  
  // Likes
  $("#content_first_likes").text(text.responseJSON.ContentWritingContest.first.likes);
  $("#content_second_likes").text(text.responseJSON.ContentWritingContest.second.likes);
@@ -610,11 +632,11 @@ text = jQuery.getJSON("rankerold.json", function(data) {
  $("#souvenir_first_likes").text(text.responseJSON.SouvenirContest.first.likes);
  $("#souvenir_second_likes").text(text.responseJSON.SouvenirContest.second.likes);
  // Fetch Usernames from JSON file
-var content_first= text.responseJSON.ContentWritingContest.first.username;
-var content_second= text.responseJSON.ContentWritingContest.second.username;
-var photo_first= text.responseJSON.PhotographyContest.first.username;
-var photo_second= text.responseJSON.PhotographyContest.second.username;
-var souvenir_first= text.responseJSON.SouvenirContest.first.username;
+var content_first= ((text.responseJSON.ContentWritingContest.first.username===null) ? " " : text.responseJSON.ContentWritingContest.first.username);
+var content_second= ((text.responseJSON.ContentWritingContest.second.username===null) ? " " : text.responseJSON.ContentWritingContest.second.username);// text.responseJSON.ContentWritingContest.second.username;
+var photo_first= ((text.responseJSON.PhotographyContest.first.username===null) ? " " : text.responseJSON.PhotographyContest.first.username);
+var photo_second= ((text.responseJSON.PhotographyContest.second.username===null) ? " " : text.responseJSON.PhotographyContest.second.username);
+var souvenir_first= ((text.responseJSON.SouvenirContest.first.username===null) ? " " : text.responseJSON.SouvenirContest.first.username);
 var souvenir_second= ((text.responseJSON.SouvenirContest.second.username===null) ? " " : text.responseJSON.SouvenirContest.second.username);
 
  //  Split username andd output first word iff length greater than 13
@@ -629,18 +651,23 @@ var souvenir_second_user = ((souvenir_second.length>13) ? souvenir_second.split(
 //  Print Usernames
 
  $("#content_first_username").text(content_first_user);
- $("#content_second_username").text(content_second_user);
+// $("#content_second_username").text(content_second_user);
  $("#photo_first_username").text(photo_first_user);
  $("#photo_second_username").text(photo_second_user);
  $("#souvenir_first_username").text(souvenir_first_user);
 // $("#souvenir_second_username").text(souvenir_second_user);
  // Images
  $("#content_img_first").attr("src", text.responseJSON.ContentWritingContest.first.image);
- $("#content_img_second").attr("src", text.responseJSON.ContentWritingContest.second.image);
  $("#photo_img_first").attr("src", text.responseJSON.PhotographyContest.first.image);
  $("#photo_img_second").attr("src", text.responseJSON.PhotographyContest.second.image);
  $("#souvenir_img_first").attr("src", text.responseJSON.SouvenirContest.first.image);
+
+if (text.responseJSON.ContentWritingContest.second.image!==null){
+ $("#content_second_username").text(content_second_user);
+ $("#content_img_second").attr("src", text.responseJSON.ContentWritingContest.second.image);}
 if (text.responseJSON.SouvenirContest.second.image!==null){
+
+ $("#souvenir_second_username").text(souvenir_second_user);
  $("#souvenir_img_second").attr("src", text.responseJSON.SouvenirContest.second.image);}
  // Post links
  $(".content_first_likes_link").attr("href", text.responseJSON.ContentWritingContest.first.post);
